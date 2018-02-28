@@ -1,6 +1,6 @@
 package Exercise_1;
 
-public class SimplifiedCircleTest {
+public class TestSimplifiedCircle {
 
     public static void main(String[] args) {
 
@@ -19,7 +19,7 @@ public class SimplifiedCircleTest {
         // Henter dens omkreds og udskriver det
         System.out.println(circle.getCircumference());
 
-        // Udskriver dens og udskriver det
+        // Udskriver SimplifiedCircles toString
         System.out.println(circle.toString());
 
     }
