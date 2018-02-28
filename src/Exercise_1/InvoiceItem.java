@@ -1,3 +1,5 @@
+package Exercise_1;
+
 public class InvoiceItem {
 
     // Laver klassens attributes
@@ -55,7 +57,7 @@ public class InvoiceItem {
     // Returnerer klassens datatyper som en String
     @Override
     public String toString() {
-        return "InvoiceItem[" +
+        return "Exercise_1.InvoiceItem[" +
                 "id='" + id + '\'' +
                 ", desc='" + desc + '\'' +
                 ", qty=" + qty +

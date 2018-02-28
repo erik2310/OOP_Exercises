@@ -1,3 +1,5 @@
+package Exercise_1;
+
 public class Account {
 
     // Laver klassens attributes
@@ -66,7 +68,7 @@ public class Account {
     // Returnerer klassens datatyper som en String
     @Override
     public String toString() {
-        return "Account[" +
+        return "Exercise_1.Account[" +
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
                 ", balance=" + balance +

@@ -1,7 +1,9 @@
+package Exercise_1;
+
 /*
- * The Circle class models a circle with a radius and color.
+ * The Exercise_1.Circle class models a circle with a radius and color.
  */
-public class Circle {  // Save as "Circle.java"
+public class Circle {  // Save as "Exercise_1.Circle.java"
     // private instance variable, not accessible from outside this class
     private double radius;
     private String color;
@@ -19,7 +21,7 @@ public class Circle {  // Save as "Circle.java"
         this.color = "red";
     }
 
-    // 3rd constructor to construct a new instance of Circle with the given radius and color
+    // 3rd constructor to construct a new instance of Exercise_1.Circle with the given radius and color
     public Circle (double r, String c) {
         this.radius = r;
         this.color = c;
@@ -51,8 +53,8 @@ public class Circle {  // Save as "Circle.java"
     }
 
     // Return a description of this instance in the form of
-    // Circle[radius=r,color=c]
+    // Exercise_1.Circle[radius=r,color=c]
     public String toString() {
-        return "Circle[radius=" + radius + " color=" + color + "]";
+        return "Exercise_1.Circle[radius=" + radius + " color=" + color + "]";
     }
 }

@@ -1,3 +1,5 @@
+package Exercise_1;
+
 public class SimplifiedCircle {
 
     // Laver klassens attributes
@@ -38,6 +40,6 @@ public class SimplifiedCircle {
 
     // Returnerer klassens datatyper som en String
     public String toString() {
-        return "Circle[radius=" + radius + "]";
+        return "Exercise_1.Circle[radius=" + radius + "]";
     }
 }

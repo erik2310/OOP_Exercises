@@ -1,3 +1,5 @@
+package Exercise_1;
+
 public class Employee {
 
     // Laver klassens attributes
@@ -59,6 +61,6 @@ public class Employee {
     // Returnerer klassens datatyper som en String
     @Override
     public String toString() {
-        return "Employee[" + "id=" + id + ", name=" + firstName + " " + lastName + ", salary=" + salary + ']';
+        return "Exercise_1.Employee[" + "id=" + id + ", name=" + firstName + " " + lastName + ", salary=" + salary + ']';
     }
 }

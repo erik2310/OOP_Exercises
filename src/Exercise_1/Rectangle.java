@@ -1,3 +1,5 @@
+package Exercise_1;
+
 public class Rectangle {
 
     // Laver klassens attributes
@@ -51,7 +53,7 @@ public class Rectangle {
     // Returnerer klassens datatyper som en String
     @Override
     public String toString() {
-        return "Rectangle[" +
+        return "Exercise_1.Rectangle[" +
                 "length=" + length +
                 ", width=" + width +
                 ']';

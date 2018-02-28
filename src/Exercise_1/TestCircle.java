@@ -1,8 +1,10 @@
-public class TestCircle {  // Save as "TestCircle.java"
+package Exercise_1;
+
+public class TestCircle {  // Save as "Exercise_1.TestCircle.java"
 
     public static void main(String[] args) {
 
-        // Declare an instance of Circle class called c1.
+        // Declare an instance of Exercise_1.Circle class called c1.
         // Construct the instance c1 by invoking the "default" constructor
         // which sets its radius and color to their default value.
 
@@ -24,9 +26,9 @@ public class TestCircle {  // Save as "TestCircle.java"
         System.out.println("The circle has radius of "
                 + c2.getRadius() + " and area of " + c2.getArea());
 
-        // Modify the test program TestCircle to construct an instance of Circle using this constructor.
+        // Modify the test program Exercise_1.TestCircle to construct an instance of Exercise_1.Circle using this constructor.
 
-        // Deklarer c3 som en instance af klassen Circle og kalder på dens 3 constructor med en radius og color.
+        // Deklarer c3 som en instance af klassen Exercise_1.Circle og kalder på dens 3 constructor med en radius og color.
         Circle c3 = new Circle(3.0,"blue");
 
         // Kalder på c3's public methods via dot operator.
@@ -34,16 +36,16 @@ public class TestCircle {  // Save as "TestCircle.java"
                 + c3.getRadius() + " and color " + c3.getColor());
 
         /*
-        * public vs. private: In TestCircle, can you access the instance variable radius directly (e.g., System.out.println(c1.radius));
+        * public vs. private: In Exercise_1.TestCircle, can you access the instance variable radius directly (e.g., System.out.println(c1.radius));
         * or assign a new value to radius (e.g., c1.radius=5.0)? Try it out and explain the error messages.
          */
 
         // System.out.println(c1.radius);
 
-        // Giver error message: Error:(41, 30) java: radius has private access in Circle
+        // Giver error message: Error:(41, 30) java: radius has private access in Exercise_1.Circle
         // Den siger at man ikke kan få adgang til den fordi den har en private access, man ville kunne få adgang til den på den måde hvis den var protected eller public.
 
-        // construct an instance of Circle
+        // construct an instance of Exercise_1.Circle
         Circle c4 = new Circle();
 
         // change radius
