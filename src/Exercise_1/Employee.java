@@ -55,7 +55,8 @@ public class Employee {
 
     // En metode der øger salary med et antal procent
     public int raiseSalary(int percent) {
-        return salary * (1 + percent / 100);
+        double result = (double) salary * (1 + (double) percent / 100);
+        return (int) result;
     }
 
     // Returnerer klassens datatyper som en String
